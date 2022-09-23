@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+#p1 {
+    font-size: larger;
+}
+
+
+#p2 {
+    font-size: small;
+    margin-bottom: 40px;
+}
+
+
+input {
+    display: block;
+    margin-bottom: 20px;
+    width: 70%;
+    line-height:120%;
+    padding:4px 10px;
+    font-size: 16px;
+    border: black groove;
+}
+
+
+label.input{
+    margin-left: 20%;
+    padding: 10%;
+}
+
+
+form{
+    background-color:rgb(212, 212, 212);
+    margin-left: 15%;
+    margin-right:15%;
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    padding: 4%;  
+}
+
+/*  making the subject inputfield bigger than the others  */
+#subject {
+   width: 70%;
+   padding:15px 10px;
+   line-height:360%;
+}
+
+
+
+button {
+    border-radius: 4px;
+    padding: 8px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 24px;
+    width: 150px;
+    margin-bottom: 50px;
+    border: black groove;
+}
+
+
+/*  Hovereffect on button  */  
+  button:hover{
+    color: #ffffff;
+    border: #ffffff solid 1px;
+    background:rgb(0, 0, 0);
+  }
+ 
+
+
+ img{
+    width: 50%;
+    height: auto;
+    display: block;
+ } 
+  
+
+
+/*  this makes the hover state when you press tab so you can see what you've selected  */
+
+:focus {
+    outline: 3px solid #2E1BA6;
+    border-color: transparent;
+  }
